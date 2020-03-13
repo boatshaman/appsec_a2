@@ -18,6 +18,7 @@
   "homepage": "https://github.com/boatshaman/appsec_a2#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
     "hbs": "^4.1.0",
     "mustache": "^4.0.0"
   }

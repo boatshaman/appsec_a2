@@ -1,1 +1,11 @@
 <p>Lets upload some images!</p>
+   
+<form id="upload_image"action="/upload" method="POST" encType="multipart/form-data">
+<label>FILENAME: </label>
+<input type="text" name="filename"></input>
+<br>
+<label>FILE: </label>
+<input name="image" type="file"/>
+</br>
+<button type="submit" form="upload_image">Add!</button>
+</form>
