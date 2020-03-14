@@ -13,7 +13,7 @@ def crop_image(img):
     fill_color = (0, 0, 0, 0) # black background
     width, height = img.width, img.height
     size = max(width, height)
-    square_img = Image.new('RGBA', (size, size), fill_color)
+    square_img = Image.new('RGB', (size, size), fill_color)
     square_img.paste(img, (FIND_CENTER(size, width), FIND_CENTER(size, height)))
     return square_img
 
